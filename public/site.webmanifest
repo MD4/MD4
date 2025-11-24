@@ -3,7 +3,7 @@
   "short_name": "MD4",
   "icons": [
     {
-      "src": "/icon-program.png",
+      "src": "https://md4.github.io/MD4/icon-program.png",
       "sizes": "32x32",
       "type": "image/png"
     }
