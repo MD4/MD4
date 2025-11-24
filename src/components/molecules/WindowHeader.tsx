@@ -15,7 +15,7 @@ const TitleText = styled.span`
 
 const WindowHeader = ({ title }: { title: string }) => (
   <StyledWindowHeader className="window-title">
-    <Icon src="/icon-program.png" alt="program icon" />
+    <Icon src="./icon-program.png" alt="program icon" />
     <TitleText>{title}</TitleText>
     <ButtonClose />
   </StyledWindowHeader>
