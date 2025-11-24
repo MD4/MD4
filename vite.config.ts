@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "./MD4/",
+  base: "/MD4/",
   plugins: [react()],
   resolve: {
     alias: {
