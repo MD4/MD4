@@ -47,7 +47,7 @@ const MainWindowToolbar = () => {
       </DropdownMenu>
       <DropdownMenu label="Contact" description="Contact me for any reason">
         <DropdownMenuItemLink
-          href="mailto:contact@martin-dequatremare.fr"
+          href="mailto:contact@md4.tech"
           primary
         >
           <Icon src="./icons/w95_70.ico" alt="program icon" />
