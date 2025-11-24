@@ -3,9 +3,6 @@ import light from "react95/dist/themes/original";
 import dark from "react95/dist/themes/tokyoDark";
 import { ThemeProvider as _ThemeProvider } from "styled-components";
 
-console.log(light);
-console.log(dark);
-
 export type ThemeType = "light" | "dark";
 
 const ThemeContext = createContext<
