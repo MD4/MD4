@@ -6,6 +6,10 @@ import path from "path";
 export default defineConfig({
   base: "./",
   plugins: [react()],
+  build: {
+    minify: "terser",
+    cssMinify: true,
+  },
   resolve: {
     alias: {
       "@assets": path.resolve(__dirname, "./src/assets"),

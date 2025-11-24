@@ -14,7 +14,7 @@ const DescriptionBox = styled(GroupBox)`
 
 const MainWindowContent = () => (
   <>
-    <Avatar />
+    <Avatar src="./md4.webp" />
     <DescriptionBox label={<strong>Hi there, I'm Martin!</strong>}>
       <span>
         I'm a lead frontend engineer based around Nantes, FR.

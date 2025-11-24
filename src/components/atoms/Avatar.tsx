@@ -1,10 +1,9 @@
 import { Monitor } from "react95";
-import avatar from "@assets/md4.png";
 
-const Avatar = () => (
+const Avatar = ({src}: {src: string}) => (
   <Monitor
     backgroundStyles={{
-      background: `url(${avatar})`,
+      background: `url(${src})`,
       backgroundPosition: "50% 35%",
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",

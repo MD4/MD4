@@ -32,16 +32,16 @@ const MainWindowToolbar = () => {
     <>
       <DropdownMenu label="Links" description="Get all my links">
         <DropdownMenuItemLink href="https://github.com/MD4" primary>
-          <Icon src="./icons/w95_61.ico" alt="program icon" />
+          <Icon src="./icons/w95_61-1.png" alt="program icon" />
           Github
         </DropdownMenuItemLink>
         <Separator />
         <DropdownMenuItemLink href="https://www.linkedin.com/in/martin-dequatremare-439923b1/">
-          <Icon src="./icons/w95_19.ico" alt="program icon" />
+          <Icon src="./icons/w95_19-1.png" alt="program icon" />
           LinkedIn
         </DropdownMenuItemLink>
         <DropdownMenuItemLink href="https://x.com/MDequa">
-          <Icon src="./icons/w95_69.ico" alt="program icon" />
+          <Icon src="./icons/w95_69-1.png" alt="program icon" />
           Twitter (formerly X)
         </DropdownMenuItemLink>
       </DropdownMenu>
@@ -50,11 +50,11 @@ const MainWindowToolbar = () => {
           href="mailto:contact@md4.tech"
           primary
         >
-          <Icon src="./icons/w95_70.ico" alt="program icon" />
+          <Icon src="./icons/w95_70-1.png" alt="program icon" />
           Send me an email
         </DropdownMenuItemLink>
         <DropdownMenuItemLink href="https://www.linkedin.com/in/martin-dequatremare-439923b1/">
-          <Icon src="./icons/w95_18.ico" alt="program icon" />
+          <Icon src="./icons/w95_18-1.png" alt="program icon" />
           Send me a message on LinkedIn
         </DropdownMenuItemLink>
       </DropdownMenu>
@@ -78,7 +78,7 @@ const MainWindowToolbar = () => {
           primary={theme === "light"}
           onClick={() => setTheme("light")}
         >
-          <Icon src="./icons/w95_28.ico" alt="program icon" />
+          <Icon src="./icons/w95_28-1.png" alt="program icon" />
           Light
         </DropdownMenuItem>
         <DropdownMenuItem
@@ -86,7 +86,7 @@ const MainWindowToolbar = () => {
           primary={theme === "dark"}
           onClick={() => setTheme("dark")}
         >
-          <Icon src="./icons/w95_26.ico" alt="program icon" />
+          <Icon src="./icons/w95_26-1.png" alt="program icon" />
           Dark
         </DropdownMenuItem>
       </DropdownMenu>

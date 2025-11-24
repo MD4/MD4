@@ -7,3 +7,5 @@ createRoot(document.getElementById("root")!).render(
     <App />
   </StrictMode>
 );
+
+window.document.body.style.backgroundImage = "none";
